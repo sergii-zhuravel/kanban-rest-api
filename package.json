@@ -1,0 +1,23 @@
+{
+  "name": "kanban-rest-api",
+  "version": "1.0.0",
+  "description": "Simple kanban REST API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "Kanban",
+    "REST"
+  ],
+  "author": "Sergii Zhuravel",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "3.6.x",
+    "tingodb": "^0.6.1",
+    "tungus": "0.0.5"
+  }
+}
